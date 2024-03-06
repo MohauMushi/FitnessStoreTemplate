@@ -6,33 +6,174 @@
 	<title>Fitness Shop</title>
 	<link href="./src/output.css" rel="stylesheet">
 	<link href="https://unpkg.com/tailwindcss@^2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
 </head>
-<body class="mx-auto">
+<body class="mx-auto bg-gray-50">
 	
-	<div class="fixed flex flex-wrap items-center justify-between w-full top-0 bg-white border-b p-3 shrink-0">
-		<div class="font-bold text-grey-darkest ml-4">
-			<img class="h-12 rounded-full" src="" alt="">Acme
+	<div class="fixed flex flex-wrap items-center justify-between w-full top-0 bg-gray-100 border-b h-16 p-2 shrink-0">
+		<div class="flex font-bold text-grey-darkest ">
+			<img class="h-9 rounded-full" src="./icons/star.png" alt="">
+             <h2 class="p-1" >Acme</h2>
 		</div>
-		<div class="hidden md:flex items-center justify-between gap-12 text-black ">
-			<div class=" flex items-center justify-center mr-12">
+		<div class="flex items-center justify-between gap-12 text-black ">
+			<div class="hidden md:flex items-center justify-center ">
 				<p class="mr-8" href="">Browse</p>
 				<p class="mr-8" href="">Sell</p>
 				<p class="mr-8" href="">Profile</p>
 			</div>
 			
-		    <div class=" flex mr-12">
-				<img class=" bg-gray-300 p-2 rounded-lg mr-3" src="./icons/search.png" alt="">
-				<img class=" bg-gray-300  p-2 rounded-lg mr-3"  src="./icons/notification.png" alt="">
-				<img class=" bg-gray-300 p-2 rounded-lg mr-3"  src="./icons/shopping-cart.png" alt="">
+		    <div class=" flex ">
+				<img class=" bg-gray-300 p-1.5 rounded-lg m-1" src="./icons/search.png" alt="">
+				<img class=" bg-gray-300  p-1.5 rounded-lg m-1"  src="./icons/notification.png" alt="">
+				<img class=" bg-gray-300 p-1.5 rounded-lg m-1"  src="./icons/shopping-cart.png" alt="">
 			</div>
 			
-			<div class="mr-8">
+			<div class="">
                 <img class="h-12 rounded-full" src="./img/lady.jpg" alt="">
 			</div>
 			
 		</div>
 	</div>
 
+	<div class=" m-5 pt-20">
+    
+	<div class=" flex justify-between lg:flex-row gap-3 ">
+		<div class="flex">
+			<img class="rounded-full h-36 m-3" src="./img/lady.jpg" alt="">
+			<div class=" m-6 sm:flex-row">
+			    <p class="font-bold text-3xl">Miss MM</p>
+			    <p class="font-medium  text-gray-400">Cape Town</p>
+			    <p class="font-medium  text-gray-400">Member since 2005</p>
+			</div>
+			
+		</div>
+		<!-- <div class="border border-purple-700 grid w-60 h-20 m-3 lg:grid-cols-2 md: gap-2 items-center ju">
+			<button class=" bg-blue-100 h-9 w-24 rounded-lg text-black font-medium">Edit Profile</button>
+			<button class="bg-blue-600 h-9 w-24 rounded-lg text-white font-medium">List an Item</button>
+		</div> -->
+    </div>
+
+	<div class="grid p-2 gap-4 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 items-start ">
+		<div class="border border-gray-300 h-24  rounded-lg">
+			<h2 class="font-bold text-3xl pl-3">5.0</h2>
+			<p class="pl-3 text-gray-400">
+			  Rating(10)
+			</p>
+		</div>
+		<div class="border border-gray-300 h-24 rounded-lg"> 
+			<h1 class="font-bold text-3xl pl-3">10</h1>
+			<p class="pl-3 text-gray-400">
+				Reviews
+			</p>
+		</div>
+		<div class="border border-gray-300 h-24 rounded-lg">
+			<h2 class="font-bold text-3xl pl-3">1500</h2>
+			<p class="pl-3 text-gray-400">
+				Followers
+			</p>
+		</div>
+	</div>
+
+
+<div class=" grid p-2 ">
+	<h1 class="flex font-bold text-3xl items-center justify-between mb-5">Reviews</h1>
+	<div class="flex items-center ">
+		<img class="b bg-gray-200 p-2 rounded-lg " src="./icons/star.png" alt="">
+		<div class=" grid items-center justify-start ml-3">
+			<h2 class="">5.0</h2>
+            <P class="">Great communication and quick shipper</P>
+		</div>
+	</div>
+</div>
+
+<div class=" rounded-xl ">
+	<h1 class="font-bold text-2xl p-2">Listings</h1>
+	<div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 items-center justify-between ">
+		<!-- Card 1 -->
+		<div class=" p-5 m-4 shadow-xl rounded-md">
+			<img class="rounded-2xl mb-5" src="./img/48445.jpg" alt="">
+			<p class=" font-bold">Track Suits Top</p>
+			<h3 class="">R 250</h3>
+		</div>
+		<!-- Card 4 -->
+		<div class="p-5 m-4 shadow-xl rounded-md">
+			<img class="rounded-2xl mb-5" src="./img/2150918137.jpg" alt="">
+			<p class=" font-bold">Sports Shorts</p>
+			<h3 class="">R 350</h3>
+		</div>
+		<!-- Card 3 -->
+		<div class="p-5 m-4 shadow-xl rounded-md">
+			<img class="rounded-2xl mb-5" src="./img/2149348474.jpg" alt="">
+			<p class="font-medium">Sports Bra</p>
+			<h3 class="">R 180</h3>
+		</div>
+		<!-- Card 4 -->
+		<div class="p-5 m-4 shadow-xl rounded-md">
+			<img class="rounded-2xl mb-5 " src="./img/2150918117.jpg" alt="">
+			<p class=" font-bold">Shorts and Top</p>
+			<h3 class="">R 500</h3>
+		</div>
+		<!-- Card 5 -->
+		<div class="p-5 m-4 shadow-xl rounded-md">
+			<img class="rounded-2xl mb-5 " src="./img/2148759020.jpg" alt="">
+			<p class="font-bold">Top and Leggings</p>
+			<h3 class="">R 650</h3>
+		</div>
+		<!-- Card 6 -->
+		<div class="p-5 m-4 shadow-xl rounded-md">
+			<img class="rounded-2xl mb-5 " src="./img/57724.jpg" alt="">
+			<p class="font-bold">long sleeve shirts & Leggings</p>
+			<h3 class="">R 750</h3>
+		</div>
+		<!-- Card 7 -->
+		<div class="p-5 m-4 shadow-xl rounded-md">
+			<img class="rounded-2xl mb-5 " src="./img/2149240469.jpg" alt="">
+			<p class="font-bold">Sports Bra & Shorts</p>
+			<h3 class="">R 650</h3>
+		</div>
+		<!-- Card 8 -->
+		<div class="p-5 m-4 shadow-xl rounded-md">
+			<img class="rounded-2xl mb-5" src="./img/2149269818.jpg" alt="">
+			<p class="font-bold">Sports Bra & leggings</p>
+			<h3 class="">R 950</h3>
+		</div>
+	</div>
+</div>
+
+
+
+</div>
+
+<footer class=" w-full bg-gray-400">
+	<div class="container flex flex-col mx-auto">
+		<div class="flex flex-col items-center w-full my-10 rounded-t-full">
+			<div class="flex flex-col items-center gap-6 mb-8">
+				<div class="flex">
+					<a href="javascript:void(0)" class="text-gray-700 hover:text-gray-900">
+						<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><path d="M 11 4 C 7.134 4 4 7.134 4 11 L 4 39 C 4 42.866 7.134 46 11 46 L 39 46 C 42.866 46 46 42.866 46 39 L 46 11 C 46 7.134 42.866 4 39 4 L 11 4 z M 13.085938 13 L 21.023438 13 L 26.660156 21.009766 L 33.5 13 L 36 13 L 27.789062 22.613281 L 37.914062 37 L 29.978516 37 L 23.4375 27.707031 L 15.5 37 L 13 37 L 22.308594 26.103516 L 13.085938 13 z M 16.914062 15 L 31.021484 35 L 34.085938 35 L 19.978516 15 L 16.914062 15 z"/></svg>
+					</a>
+					<a href="javascript:void(0)" class="text-gray-700 hover:text-gray-900">
+						<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><linearGradient id="awSgIinfw5_FS5MLHI~A9a" x1="6.228" x2="42.077" y1="4.896" y2="43.432" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0d61a9"/><stop offset="1" stop-color="#16528c"/></linearGradient><path fill="url(#awSgIinfw5_FS5MLHI~A9a)" d="M42,40c0,1.105-0.895,2-2,2H8c-1.105,0-2-0.895-2-2V8c0-1.105,0.895-2,2-2h32	c1.105,0,2,0.895,2,2V40z"/><path d="M25,38V27h-4v-6h4v-2.138c0-5.042,2.666-7.818,7.505-7.818c1.995,0,3.077,0.14,3.598,0.208	l0.858,0.111L37,12.224L37,17h-3.635C32.237,17,32,18.378,32,19.535V21h4.723l-0.928,6H32v11H25z" opacity=".05"/><path d="M25.5,37.5v-11h-4v-5h4v-2.638c0-4.788,2.422-7.318,7.005-7.318c1.971,0,3.03,0.138,3.54,0.204	l0.436,0.057l0.02,0.442V16.5h-3.135c-1.623,0-1.865,1.901-1.865,3.035V21.5h4.64l-0.773,5H31.5v11H25.5z" opacity=".07"/><path fill="#fff" d="M33.365,16H36v-3.754c-0.492-0.064-1.531-0.203-3.495-0.203c-4.101,0-6.505,2.08-6.505,6.819V22h-4v4	h4v11h5V26h3.938l0.618-4H31v-2.465C31,17.661,31.612,16,33.365,16z"/></svg>
+					</a>
+					<a href="javascript:void(0)" class="text-gray-700 hover:text-gray-900">
+						<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><radialGradient id="yOrnnhliCrdS2gy~4tD8ma" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fd5"/><stop offset=".328" stop-color="#ff543f"/><stop offset=".348" stop-color="#fc5245"/><stop offset=".504" stop-color="#e64771"/><stop offset=".643" stop-color="#d53e91"/><stop offset=".761" stop-color="#cc39a4"/><stop offset=".841" stop-color="#c837ab"/></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8ma)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"/><radialGradient id="yOrnnhliCrdS2gy~4tD8mb" cx="11.786" cy="5.54" r="29.813" gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4168c9"/><stop offset=".999" stop-color="#4168c9" stop-opacity="0"/></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8mb)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"/><path fill="#fff" d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"/><circle cx="31.5" cy="16.5" r="1.5" fill="#fff"/><path fill="#fff" d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"/></svg>
+					</a>
+					<a href="javascript:void(0)" class="text-gray-700 hover:text-gray-900">
+                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px" clip-rule="evenodd"><path fill="#212121" fill-rule="evenodd" d="M10.904,6h26.191C39.804,6,42,8.196,42,10.904v26.191	C42,39.804,39.804,42,37.096,42H10.904C8.196,42,6,39.804,6,37.096V10.904C6,8.196,8.196,6,10.904,6z" clip-rule="evenodd"/><path fill="#ec407a" fill-rule="evenodd" d="M29.208,20.607c1.576,1.126,3.507,1.788,5.592,1.788v-4.011	c-0.395,0-0.788-0.041-1.174-0.123v3.157c-2.085,0-4.015-0.663-5.592-1.788v8.184c0,4.094-3.321,7.413-7.417,7.413	c-1.528,0-2.949-0.462-4.129-1.254c1.347,1.376,3.225,2.23,5.303,2.23c4.096,0,7.417-3.319,7.417-7.413V20.607L29.208,20.607z M30.657,16.561c-0.805-0.879-1.334-2.016-1.449-3.273v-0.516h-1.113C28.375,14.369,29.331,15.734,30.657,16.561L30.657,16.561z M19.079,30.832c-0.45-0.59-0.693-1.311-0.692-2.053c0-1.873,1.519-3.391,3.393-3.391c0.349,0,0.696,0.053,1.029,0.159v-4.1	c-0.389-0.053-0.781-0.076-1.174-0.068v3.191c-0.333-0.106-0.68-0.159-1.03-0.159c-1.874,0-3.393,1.518-3.393,3.391	C17.213,29.127,17.972,30.274,19.079,30.832z" clip-rule="evenodd"/><path fill="#fff" fill-rule="evenodd" d="M28.034,19.63c1.576,1.126,3.507,1.788,5.592,1.788v-3.157	c-1.164-0.248-2.194-0.856-2.969-1.701c-1.326-0.827-2.281-2.191-2.561-3.788h-2.923V28.79c-0.007,1.867-1.523,3.379-3.393,3.379	c-1.102,0-2.081-0.525-2.701-1.338c-1.107-0.558-1.866-1.705-1.866-3.029c0-1.873,1.519-3.391,3.393-3.391	c0.359,0,0.705,0.056,1.03,0.159v-3.19c-4.024,0.083-7.26,3.369-7.26,7.411c0,2.018,0.806,3.847,2.114,5.183	c1.18,0.792,2.601,1.254,4.129,1.254c4.096,0,7.417-3.319,7.417-7.413L28.034,19.63L28.034,19.63z" clip-rule="evenodd"/><path fill="#81d4fa" fill-rule="evenodd" d="M33.626,18.262v-0.854c-1.05,0.002-2.078-0.292-2.969-0.848	C31.445,17.423,32.483,18.018,33.626,18.262z M28.095,12.772c-0.027-0.153-0.047-0.306-0.061-0.461v-0.516h-4.036v16.019	c-0.006,1.867-1.523,3.379-3.393,3.379c-0.549,0-1.067-0.13-1.526-0.362c0.62,0.813,1.599,1.338,2.701,1.338	c1.87,0,3.386-1.512,3.393-3.379V12.772H28.095z M21.635,21.38v-0.909c-0.337-0.046-0.677-0.069-1.018-0.069	c-4.097,0-7.417,3.319-7.417,7.413c0,2.567,1.305,4.829,3.288,6.159c-1.308-1.336-2.114-3.165-2.114-5.183	C14.374,24.749,17.611,21.463,21.635,21.38z" clip-rule="evenodd"/></svg>
+					</a>
+					<a href="javascript:void(0)" class="text-gray-700 hover:text-gray-900">
+                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#FF3D00" d="M43.2,33.9c-0.4,2.1-2.1,3.7-4.2,4c-3.3,0.5-8.8,1.1-15,1.1c-6.1,0-11.6-0.6-15-1.1c-2.1-0.3-3.8-1.9-4.2-4C4.4,31.6,4,28.2,4,24c0-4.2,0.4-7.6,0.8-9.9c0.4-2.1,2.1-3.7,4.2-4C12.3,9.6,17.8,9,24,9c6.2,0,11.6,0.6,15,1.1c2.1,0.3,3.8,1.9,4.2,4c0.4,2.3,0.9,5.7,0.9,9.9C44,28.2,43.6,31.6,43.2,33.9z"/><path fill="#FFF" d="M20 31L20 17 32 24z"/></svg>
+					</a>
+				</div>
+				
+				<!-- Copyright -->
+			<div class="flex items-center">
+				<p class="text-base font-normal leading-7 text-center">&copy; 2024 Acme. All rights reserved</p>
+			</div>
+			</div>
+		</div>
+	</div>
+</footer>
 	
 </body>
 </html>
